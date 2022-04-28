@@ -3,12 +3,28 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
-        <TargetDatabase>CubosOLAP-Esquelas</TargetDatabase>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Db Esquelas</Id>
+            <Name>Db Esquelas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARZeAiGrcdk+XlcWeQeGJxQAAAAAYAAAARABiACAARQBzAHEAdQBlAGwAYQBzAAAAEGYAAAABAAAgAAAAO3FBelMkFbZm1ajuWOhcqXPpeJCQZax7DrCAj4c/id0AAAAADoAAAAACAAAgAAAAe/eq6gNTKxlERZ7UyEOWK6SxwCiwwYQbyNJNFBmzOBMQAAAAhUpItFrUKlg62fDsQu/bCkAAAAAJWljp2VglgnQZcEl/nQUn8jCp/bDtP+TtSYTR8SoSehzH8l1Rg4oOJPNAH5vUZDeOn69rBcxbkxJw+OOYifQi</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Db Esquelas</Id>
+            <Name>Db Esquelas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARZeAiGrcdk+XlcWeQeGJxQAAAAAYAAAARABiACAARQBzAHEAdQBlAGwAYQBzAAAAEGYAAAABAAAgAAAAen55l8VygzUBLggikCWIbC+RCmM5O06dTZeqZOqvgqwAAAAADoAAAAACAAAgAAAAEIdYfoZ1gtOxPMJqR06YVs05l9c4gY1G1IB3pvDfcwwQAAAA+altSVNuwILXuxM7EnZ9Q0AAAABKbmIpnvtcUJqvVzeleDK4lk0mg2mZw1vuYZTRmUeRbXq3A3pesYZC1/Lny98tVseujko+57uoEvlNXsAg0aaY</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>RMIRANDASV\SQLEXPRESS</TargetServer>
+        <TargetDatabase>Cubo-Esquelas</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
         </StartObject>
+        <TransactionalDeployment>true</TransactionalDeployment>
+        <DeploymentMode>DeployAll</DeploymentMode>
       </Options>
     </Configuration>
   </Configurations>

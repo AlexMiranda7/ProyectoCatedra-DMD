@@ -1,0 +1,117 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4c57ea26-942b-4586-a7cc-a08d0469b6d8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Db Esquelas</ID>
+  <Name>Db Esquelas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Db Esquelas</DataSourceID>
+  <Schema>
+    <xs:schema id="Db_x0020_Esquelas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Db_x0020_Esquelas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="63f0579f-37bb-4183-8c6b-55a801459fe2">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Esquelas" msprop:design-time-name="600bb6ec-57ef-4d73-8c1a-98d15b8877e5" msprop:DbTableName="Esquelas" msprop:FriendlyName="Esquelas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ves_Nro_Esquela" msprop:design-time-name="3d5dbc9c-1b10-4d7f-8bf8-42d4d323c212" msprop:DbColumnName="Ves_Nro_Esquela" msprop:FriendlyName="Ves_Nro_Esquela" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Fecha" msprop:design-time-name="e9f29074-0ac6-48ea-b16e-53d78fb40633" msprop:DbColumnName="Ves_Fecha" msprop:FriendlyName="Ves_Fecha" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Ves_Tipo_Falta" msprop:design-time-name="2e8542c0-ddf8-464e-b50b-b57929f29ddb" msprop:DbColumnName="Ves_Tipo_Falta" msprop:FriendlyName="Ves_Tipo_Falta" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Falta_Descripcion" msprop:design-time-name="ace37fb8-a720-4f60-befd-3a6c4a55df7c" msprop:DbColumnName="Ves_Falta_Descripcion" msprop:FriendlyName="Ves_Falta_Descripcion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Departamento" msprop:design-time-name="7c51f44f-8553-4e00-9f18-de651885d750" msprop:DbColumnName="Ves_Departamento" msprop:FriendlyName="Ves_Departamento" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Estado" msprop:design-time-name="3324bc23-d412-4983-8c11-916f3b13e8d9" msprop:DbColumnName="Ves_Estado" msprop:FriendlyName="Ves_Estado" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Estado_Descripcion" msprop:design-time-name="8468c3e0-fc79-4bf0-a6a8-6b808cca68e1" msprop:DbColumnName="Ves_Estado_Descripcion" msprop:FriendlyName="Ves_Estado_Descripcion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Valor" msprop:design-time-name="22b9410d-ff8b-452a-8908-72967e8b8b00" msprop:DbColumnName="Ves_Valor" msprop:FriendlyName="Ves_Valor" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ves_Interes" msprop:design-time-name="4e4be679-2b50-45a5-9fa0-25fdcdef7a28" msprop:DbColumnName="Ves_Interes" msprop:FriendlyName="Ves_Interes" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Db_x0020_Esquelas xmlns="" />
+  </Schema>
+</DataSourceView>
